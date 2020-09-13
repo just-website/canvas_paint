@@ -1,0 +1,8 @@
+$padding: 30px;
+
+.wrapper {
+	padding: $padding;
+	padding-bottom: calc(#{$padding} + 48px);
+	height: calc(100vh - #{$padding * 2} - 48px);
+	width: calc(100vw - #{$padding * 2});
+}

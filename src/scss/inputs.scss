@@ -1,0 +1,10 @@
+.inputs {
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	
+	&__color {
+		width: 50px;
+		margin-left: 20px;
+	}
+}

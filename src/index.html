@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Canvas page</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="src/main.css"> -->
+</head>
+<body>
+	<div class="wrapper">
+		<canvas class="canvas" id="canvas"></canvas>
+		<div class="inputs">
+			<div class="mdc-slider" id="slider" tabindex="0" role="slider" aria-valuemin="1" aria-valuemax="10" aria-valuenow="1" data-step="1"
+				aria-label="Select Value">
+				<div class="mdc-slider__track-container">
+					<div class="mdc-slider__track"></div>
+				</div>
+				<div class="mdc-slider__thumb-container">
+					<svg class="mdc-slider__thumb" width="21" height="21">
+						<circle cx="10.5" cy="10.5" r="7.875"></circle>
+					</svg>
+					<div class="mdc-slider__focus-ring"></div>
+				</div>
+			</div>
+			<input type="color" name="color" id="color" class="inputs__color">
+		</div>
+	</div>
+</body>
+</html>
